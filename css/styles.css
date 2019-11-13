@@ -1,0 +1,190 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-wrapper{
+
+}
+
+.container-wrapper--green{
+    background-color: #59c98d;
+    color: white;
+}
+.alert-container .col-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.site-wide-alert{
+    border-radius: 0;
+    margin-bottom: 0;
+    padding:5px 15px;
+    background-color: #b8bf2a;
+    border-color: #b8bf2a;
+}
+
+.callout-container {
+    height: 100vh;
+
+    
+  background: url("../images/whiskeyimg.jpg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative
+}
+
+.opaque-overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.quotes-container {}
+
+.features-container {}
+
+
+/*Page headers*/
+
+.page-header{
+    margin-bottom:0;
+    border-bottom: 0;
+    text-align:center;
+}
+
+.page-header h2{
+    margin-top:0;
+
+}
+
+.quotes .page-header{
+    margin-bottom: 25px;
+}
+
+/*Block dividers*/
+
+.block-divider{
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+    
+}
+.block-divider--green{
+    background-color: #59c98d;
+}
+.block-divider--short {
+    width:35px;
+}
+
+.block-divider--white{
+    background-color: white;
+}
+
+/*Content containers */
+
+.content-container{
+    padding-top:75px;
+    padding-bottom:75px;
+}
+
+
+
+/*Navbar*/
+
+.navalert-container{
+    position: absolute;
+    top:0;
+    left:0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar{
+    margin-bottom:0;
+    border:0;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.60);
+}
+
+.navbar .navbar-toggler{
+    border:0;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+font-weight: bold;
+}
+/*Jumbotron*/
+
+.jumbotron{
+    background-color: transparent;
+}
+
+.jumbotron-header{
+    color:white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.jumbotron .lead{
+     margin: 25px 0;
+     color: #a5aab5;
+}
+
+
+.jumbotron small{
+    font-size: 60%;
+    font-style: italic;
+    color:#d0d0d0;
+}
+
+/*Buttons*/
+
+.btn--cta{
+    font-weight: bold;
+    border-radius: 23px;
+    width:160px;
+}
+
+.btn--green{
+    color:white;
+    background-color: #59c98d;
+    border-color: #59c98d;
+}
+ .btn-light{
+     background-color: transparent;
+ }
+
+.btn--green:hover,
+.btn--green:active,
+.btn--green:focus,
+.btn--green:active:focus{
+    background-color: #42a16e;
+     border-color: #42a16e;
+}
+
+.feature {
+text-align: center;
+margin-bottom: 40px;
+
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
