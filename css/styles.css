@@ -27,7 +27,8 @@ body{
     height: 100vh;
 
     
-  background: url("../images/whiskeyimg.jpg") no-repeat bottom right fixed; 
+  background: url("./images/coffeed.jpg") no-repeat bottom right fixed; 
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -37,7 +38,7 @@ body{
   align-items: center;
   justify-content: center;
 
-  position: relative
+  position: relative;
 }
 
 .opaque-overlay{
@@ -68,7 +69,7 @@ body{
 }
 
 .quotes .page-header{
-    margin-bottom: 25px;
+    margin-bottom: 25px; 
 }
 
 /*Block dividers*/
